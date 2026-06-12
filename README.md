@@ -4,7 +4,7 @@
 ---
 
 ## 🎬 Video Demostrativo
- 
+ https://youtu.be/yEBzKY2r0Sg?list=PLhmycmsx2nBs0-Bkpf4b-wrZTDeDE7EZ3
 ---
 
 ## 1. Objetivo del Laboratorio
