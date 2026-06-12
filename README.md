@@ -187,7 +187,9 @@ SW1# show ip dhcp snooping
 ## 4. Documentación de la Red
 
 ### Topología
-<img width="648" height="556" alt="image" src="https://github.com/user-attachments/assets/ecade9a5-9d38-4994-a388-962dad06f919" />
+
+ <img width="1150" height="733" alt="image" src="https://github.com/user-attachments/assets/37f89e10-1c11-4c7b-a2a1-a35b8ac56d3b" />
+
 
 ## Tabla de Interfaces por Dispositivo
 
