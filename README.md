@@ -264,27 +264,26 @@ SW1# show ip dhcp snooping
 ## 5. Capturas de Pantalla
 
 ### Antes del ataque
-<img width="731" height="493" alt="image" src="https://github.com/user-attachments/assets/c280306d-acb6-4ce8-8f5b-95f7aa87f573" />
+
+ <img width="638" height="440" alt="image" src="https://github.com/user-attachments/assets/ff189fe5-3fd4-47bd-a9af-c75e8e1f5697" />
 
 > 📷 `R1# show ip dhcp binding` — pocas IPs asignadas
 
 ### Script en ejecución
- <img width="639" height="475" alt="image" src="https://github.com/user-attachments/assets/fe176c2a-43ec-4ec2-a91b-867be5d51a38" />
+
+  <img width="691" height="524" alt="image" src="https://github.com/user-attachments/assets/f599db9e-d631-4eef-a95f-2278ba6dd5cc" />
 
 > 📷 Kali ejecutando `dhcp_starvation.py` mostrando solicitudes enviadas
 
 ### Pool agotado
-<img width="630" height="469" alt="image" src="https://github.com/user-attachments/assets/cb452888-4bf7-4cce-a4ac-07aa92ef8616" />
+
+ <img width="630" height="429" alt="image" src="https://github.com/user-attachments/assets/e1d75b0a-9f02-47e3-8014-bc1fa44c3e14" />
 
 > 📷 `R1# show ip dhcp binding` — pool agotado con MACs falsas
 
-### Cliente sin IP
-<img width="537" height="430" alt="image" src="https://github.com/user-attachments/assets/48517c61-50a6-45eb-aa5d-ef9b5791b725" />
-
-> 📷 `VPC10# ip dhcp` — falla por pool agotado
-
 ### Contramedida aplicada
-<img width="572" height="363" alt="image" src="https://github.com/user-attachments/assets/db7c01c6-7cb4-47ec-b9b7-6756a4caeeb1" />
+<img width="633" height="445" alt="image" src="https://github.com/user-attachments/assets/b85bcedf-e474-4d13-bdeb-ac9c217455ad" />
+
 
 > 📷 `SW1# show ip dhcp snooping statistics` — bloqueando solicitudes excesivas
 
